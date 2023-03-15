@@ -125,6 +125,79 @@ button:hover {
   color: var(--orange);
 }
 
+.thankyou__container { 
+  background-color: #1f2630;
+  padding: 40px;
+  border-radius: 20px;
+  width: 300px;
+  height: 320px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.selected { 
+  background-color: #272e36;
+  border-radius: 35px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  margin-top: 15px;
+  height: 25px;
+}
+.selected p { 
+  font-size: 15px;
+  color: var(--orange);
+  display: contents;
+}
+.center { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.attribution { 
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--light-grey);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
