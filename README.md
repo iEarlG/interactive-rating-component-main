@@ -31,9 +31,11 @@ Users should be able to:
 
 ### Screenshot
 
-image.png
+![image](https://user-images.githubusercontent.com/91045673/225303647-f67a9b9b-68e1-4170-85f1-6f3f3ed7251c.png)
 
-image.png
+
+![image](https://user-images.githubusercontent.com/91045673/225303766-fdc154ff-c174-468d-8c63-d4e7292aade0.png)
+
 
 ### Links
 
@@ -92,9 +94,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://iearl-v.me/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iEarlG)
-- Twitter - [@yourusername](https://www.twitter.com/itseaaarloffcl)
+- Website - [Earl Villapaz](https://iearl-v.me/)
+- Frontend Mentor - [@iEarlG](https://www.frontendmentor.io/profile/iEarlG)
+- Twitter - [@itseaaarloffcl](https://www.twitter.com/itseaaarloffcl)
 
 
 ## Acknowledgments
