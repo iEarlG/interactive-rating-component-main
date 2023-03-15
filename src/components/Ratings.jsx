@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import star from '../assets/images/icon-star.svg';
 
 const Ratings = () => {
+  const [selected, setSelected] = useState(0);
+
+  const handleRatingClicked = (rating) => {
+    setSelected(rating);
+  }
   return (
     <div className="rating__container">
       <img src={star} alt="icon-star" className="rating__star" />
@@ -15,13 +20,13 @@ const Ratings = () => {
       </div>
       
       <div className="rating">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
+        {[1, 2, 3, 4, 5].map((rating, i) => (
+          <button key={i} onClick={() => handleRatingClicked(rating)}>
+            {rating}
+          </button>
+        ))}
       </div>
-        <button className="submit-btn">Submit</button>
+        <button disabled={!selected === 0} className="submit-btn">Submit</button>
     </div>
   )
 }

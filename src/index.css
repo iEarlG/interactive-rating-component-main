@@ -118,6 +118,7 @@ button:hover {
   font-weight: 700;
   letter-spacing: 4px;
   text-transform: uppercase;
+  padding: 10px;
 }
 .submit-btn:focus {
   background-color: white;
